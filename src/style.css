@@ -11,8 +11,8 @@ header {
 }
 .menu {
     box-sizing: border-box;
-    padding: 0px 37.5px;
-    margin: 0px auto;
+    padding: 0px 0px;
+    margin: 0px 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -20,7 +20,7 @@ header {
     align-items: center;
 }
 .menu__info {
-    height: 24px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,6 +38,7 @@ header {
 .menu__info li a {
     text-decoration: none;
     color: white;
+
 }
 .menu__info_glass {
     width: 24px;
@@ -47,6 +48,32 @@ header {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+}
+.menu__info_gid{
+    display: flex;
+    flex-direction: row;
+
+}
+.menu__info_gid li {
+    list-style: none;
+    padding: 0;
+    margin: 8px 16px;
+}
+.menu__info_gid li a{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.menu__info_logo{
+    margin: auto 9px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu__info_logo li{
+    margin: auto 9px;
 }
 #main {
     width: 100%;
