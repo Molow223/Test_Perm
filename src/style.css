@@ -219,7 +219,7 @@ input::placeholder {
 }
 .block-card__small {
     position: relative;
-    top: 20px;
+    top: 24px;
     width: 332px;
     height: 656px;
 }
@@ -263,7 +263,7 @@ input::placeholder {
     height: 656px;
     border-radius: 24px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 .block-card__small_orange_img {
     background: linear-gradient(15.09deg, #e41a4b -16.29%, #ffec00 104.91%);
